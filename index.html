@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="form-con">
+        <form action="" id="form-con" oninput="return form()">
+            <h1>Login Here</h1>
+            <input type="text" id="user" placeholder="Username...">
+            <span class="error" id="userEr"></span>
+            <input type="password" name="password" id="password" placeholder="Password...">
+            <span class="error" id="passEr"></span>
+            <input type="submit" value="Login Now" id="button">
+        </form>
+    </div>
+</body>
+
+</html>
